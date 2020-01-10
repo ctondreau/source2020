@@ -17,4 +17,4 @@ Both Mac and Windows
 1. Go to github.com and create an account
 2. Go to https://github.com/ctondreau/source2020 and click "clone or download"
 3. Copy link, go to your terminal in the desired directory and type "git clone <link>" (may need to log into git in the terminal first)
-4. Navigate to "node helloworld.js" and run it! You're all set!
+4. Navigate to the folder and type "node helloworld.js" into your terminal. Click enter to run it! If you see the terminal output "Welcome to Source" you're all set!
