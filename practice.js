@@ -43,3 +43,7 @@ const attendance = [
     {firstname : 'William' , lastname : 'Helmrath', grade: 'A'},
     {firstname : 'Jazlene' , lastname : 'Guevarra', grade: 'A'},
 ]
+
+//13. Write a square class with a side property
+
+//14. Add a setter to check the length of the side value

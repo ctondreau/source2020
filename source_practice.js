@@ -56,18 +56,42 @@
 // const product3 = (x,y) => x*y ;
 // console.log(product3(2,3));
 
-const attendance = [
-    {firstname : "Clay" , lastname : "Tondreau", grade: 'A'},
-    {firstname : 'Tucker' , lastname : 'Wilson', grade: 'F'},
-    {firstname : 'Eliza' , lastname : 'Tobin', grade: 'B'},
-    {firstname : 'Sofia' , lastname : 'Ackerman', grade: 'C'},
-    {firstname : 'Thomas' , lastname : 'Beddow', grade: 'D'},
-    {firstname : 'William' , lastname : 'Helmrath', grade: 'A'},
-    {firstname : 'Jazlene' , lastname : 'Guevarra', grade: 'A'},
-]
+// const attendance = [
+//     {firstname : "Clay" , lastname : "Tondreau", grade: 'A'},
+//     {firstname : 'Tucker' , lastname : 'Wilson', grade: 'F'},
+//     {firstname : 'Eliza' , lastname : 'Tobin', grade: 'B'},
+//     {firstname : 'Sofia' , lastname : 'Ackerman', grade: 'C'},
+//     {firstname : 'Thomas' , lastname : 'Beddow', grade: 'D'},
+//     {firstname : 'William' , lastname : 'Helmrath', grade: 'A'},
+//     {firstname : 'Jazlene' , lastname : 'Guevarra', grade: 'A'},
+// ]
 
-const newAttendance = attendance.map(person=>{
-    return {firstname: person.firstname, grade: person.grade};
-});
+// const newAttendance = attendance.map(person=>{
+//     return {firstname: person.firstname, grade: person.grade};
+// });
 
-console.log(newAttendance)
+//console.log(newAttendance)
+
+class Rectangle {
+    constructor(newHeight,newWidth){
+        this.setHeight = newHeight;
+        this.width = newWidth;
+    }
+    calcArea(){
+        return this.height*this.width;
+    }
+    set setHeight(newHeight){
+        if(newHeight<0){
+            // You could throw an error here, but I'll just set it to 0
+            this.height = 0;
+        }else{
+            this.height=newHeight;
+        }
+    }
+}
+
+const square = new Rectangle(10,10);
+console.log(square.height); // 10
+console.log(square.calcArea());// 100
+square.setHeight = -10;
+console.log(square.height);// 0
