@@ -8,18 +8,16 @@ class App extends Component {
   };
   /*
 */
-  incrementCounter = counter => {
-    let newCounter = (counter += 1);
-    this.setState({
-      counter: newCounter
-    });
+  incrementCounter(){
+    // Fill this out
   };
+
   render() {
     return (
       <div className="App">
         {this.state.counter}
         <div>
-          <button onClick={() => this.incrementCounter(this.state.counter)}>
+          <button onClick={() => this.incrementCounter()}>
             click me!
           </button>
         </div>
