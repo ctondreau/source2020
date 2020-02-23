@@ -1,0 +1,18 @@
+.whole{
+  text-align:center;
+  border:2px;
+  padding:10px;
+}
+
+.taskRow{
+  border:1px;
+  border-style:solid;
+  border-radius:5px;
+  margin:5px;
+  padding:5px;
+  display:inline-block;
+}
+
+.taskButton{
+  margin-left:10px;
+}
