@@ -1,0 +1,55 @@
+body{
+  text-align:center;
+  padding:10px;
+}
+
+h2{
+  font-family: 'Permanent Marker';
+  color:lightgray;
+}
+
+h1{
+  font-family:'Sedgwick Ave';
+  color:#fff382;
+}
+
+.questionBox{
+  border:5px;
+  border-style:ridge;
+  border-radius: 10px;
+  padding:10px;
+  border-color:whitesmoke;
+  background-color:black;
+}
+
+.startButton{
+  padding-top:10px;
+  font-size:20px;
+}
+
+.buttons{
+  color:whitesmoke;
+  font-size:25px;
+  background-color:black;
+  border:0px;
+  margin:5px;
+  padding:5px;
+  font-family: 'Permanent Marker';
+}
+
+.buttons:hover{
+  border: 2px;
+  border-style: dashed;
+  border-radius: 100px;
+  color: yellow;
+  margin:3px;
+}
+
+.startButtonButton{
+  font-family:'Permanent Marker';
+  font-size:25px;
+  background:white;
+  border:2px;
+  border-style:solid;
+  border-radius:10px;
+}
