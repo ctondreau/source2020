@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.Images{
+  width:100px;
+  height:100px;
+  margin:10px;
+  padding:2px;
+  border:2px;
+  border-style: groove;
+}
+.contentBox{
+  margin:10px;
+  border:2px;
+  border-style:groove;
+  display:inline-flex;
+}
+
+body{
+  padding-top:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
